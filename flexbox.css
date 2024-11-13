@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+header nav {
+  height: 123px;
+  background-color: #2196F3;
+  color: white;
+  padding: 2rem 3rem;
+  display: flex;
+  font-size: 25px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul{
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  list-style: none;
+  font-size: 15px;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3c4042;
+  font-weight: 600;
+  transition: all;
+  transition-duration: 400;
+  border-bottom: 1px solid rgba(255, 68, 0, 0);
+}
+ul li a:hover{
+  border-bottom: 1px solid orangered;
+}
+
+main {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem ;
+}
+
+aside {
+  flex: 1;
+  background-color: #FFC107;
+  padding: 1rem;
+  text-align: center;
+}
+
+aside .box {
+  background-color: blue;
+  padding: 0.5rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+section {
+  flex: 3;
+  background-color: #F44336;
+  padding: 2rem;
+}
+
+section .content-box {
+  background-color: #E91E63;
+  color: white;
+  padding: 2px;
+  margin: 10px;
+  text-align: center;
+  flex: 4 4 20% ;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+footer {
+  height: 92px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  margin-top: 0.2rem;
+}
